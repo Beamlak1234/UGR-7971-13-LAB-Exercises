@@ -1,6 +1,6 @@
 void main() {
-  double number1 = 5;
-  double number2 = 7;
+  double number1 = 2;
+  double number2 = 1;
 
   double sum = calculateSum(number1, number2);
 
