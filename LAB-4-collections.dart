@@ -1,5 +1,8 @@
+// ignore_for_file: unnecessary_null_comparison
+
 import 'dart:core';
-import 'dart:core';
+
+
 
 class Product {
   String name;
@@ -46,7 +49,7 @@ void main() {
 void addToCart(List<CartItem> cart, Product product, int quantity) {
   CartItem existingItem = cart.firstWhere((item) => item.product.name == product.name, orElse: () => Null);
 
-  if (existingItem != Null) {
+  if (existingItem != null) {
     existingItem.quantity += quantity;
   } else {
     cart.add(CartItem(product, quantity));
