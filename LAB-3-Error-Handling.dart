@@ -6,7 +6,6 @@ void main() {
   try {
     File file = File(filePath);
 
-    // Read the contents of the file
     String contents = file.readAsStringSync();
 
     print('File contents:');
