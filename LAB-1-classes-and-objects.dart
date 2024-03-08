@@ -8,7 +8,7 @@ class Person {
 
 void main() {
   // Create a person object
-  Person person1 = Person("John Doe", 25, "123 Main St");
+  Person person1 = Person("chal", 65, "123 Main St");
 
   // Access and modify attributes
   print("Original Information:");
@@ -17,7 +17,7 @@ void main() {
   print("Address: ${person1.address}");
 
   person1.age = 30;
-  person1.address = "456 Elm St";
+  person1.address = "kara werda 2";
 
   print("\nModified Information:");
   print("Name: ${person1.name}");
