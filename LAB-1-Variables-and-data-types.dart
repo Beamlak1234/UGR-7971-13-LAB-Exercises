@@ -1,7 +1,7 @@
 void main() {
   String name = "Beamlak";
   int age = 21;
-  String favoriteColor = "Blue";
+  String favoriteColor = "Green";
 
   print("My name is $name.");
   print("I am $age years old.");
