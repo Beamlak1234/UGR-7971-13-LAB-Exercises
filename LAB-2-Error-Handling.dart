@@ -3,7 +3,7 @@ double divideNumbers(double dividend, double divisor) {
     return dividend / divisor;
   } catch (e) {
     if (e is DivisionByZeroError) {
-      print('Error: Division by zero is not allowed.');
+      print('Error:Division by zero is not allowed!');
     } else {
       print('An error occurred: $e');
     }
@@ -21,7 +21,7 @@ void main() {
   double result = divideNumbers(dividend, divisor);
 
   if (result.isNaN) {
-    print('Division failed. Please check the input values.');
+    print('Division failed.Please check the input values.');
   } else {
     print('Result: $result');
   }
