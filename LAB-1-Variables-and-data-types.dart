@@ -1,6 +1,6 @@
 void main() {
   String name = "Beamlak";
-  int age = 3;
+  int age = 21;
   String favoriteColor = "Blue";
 
   print("My name is $name.");
