@@ -1,13 +1,9 @@
 import 'dart:math';
 
 void main() {
-  // Generate a list of random numbers
-  List<int> randomNumbers = generateRandomNumbers(20);
-
-  // Create a Set to store unique numbers
+ List<int> randomNumbers = generateRandomNumbers(20);
+  
   Set<int> uniqueNumbers = Set<int>.from(randomNumbers);
-
-  // Print the unique numbers
   print('Unique numbers:');
   uniqueNumbers.forEach((number) => print(number));
 }
